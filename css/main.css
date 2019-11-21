@@ -1,8 +1,6 @@
 html {
   font-family: Verdana, sans-serif;
-  background-color: #bea586;
-  background-image: url("../images/slothbg.svg");
-  background-size: 48px;
+  background: url("../images/slothbg.svg") left top / 48px auto repeat #bea586;
 }
 
 main {
@@ -17,6 +15,13 @@ h1 {
 
 figcaption {
   font-family: Georgia, serif;
+  position: absolute;
+  background-color: #fff;
+  bottom: .1em;
+}
+
+figure {
+  position: relative;
 }
 
 .gradient {
