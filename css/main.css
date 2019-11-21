@@ -1,6 +1,8 @@
 html {
   font-family: Verdana, sans-serif;
   background-color: #bea586;
+  background-image: url("../images/slothbg.svg");
+  background-size: 48px;
 }
 
 main {
