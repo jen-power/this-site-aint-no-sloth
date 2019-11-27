@@ -17,12 +17,17 @@ figcaption {
   font-family: Georgia, serif;
   position: absolute;
   background-color: #fff;
-  bottom: .1em;
+  bottom: 0;
   display: block;
 }
 
 figure {
   position: relative;
+}
+
+.boop {
+  position: absolute;
+  min-height: 100%;
 }
 
 .gradient {
